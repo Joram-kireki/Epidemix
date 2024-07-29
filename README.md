@@ -27,6 +27,7 @@ Agent-based modeling provides a unique lens through which complex systems can be
 > Read More on Agent-Based Modeling: [epidemix.jhubafrica.com](https://epidemix.jhubafrica.com/)  
 
 
+---
 ## File Structure:
 ```shell
 .
@@ -53,4 +54,5 @@ Agent-based modeling provides a unique lens through which complex systems can be
 
 ```
 
+### [`agent_based_modelling`](./agent_based_modelling/)
 Navigate to the [`agent_based_modelling`](./agent_based_modelling/) directory to view multiple support documents for the project.
