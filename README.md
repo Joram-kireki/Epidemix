@@ -11,7 +11,7 @@ This is a project implementation using a `SIR`-like  model. Is extended to `SEIR
 
 ---
 ## Model
-> See the model of the project in the model [`model`](https://github.com/Joram-kireki/Epidemix/tree/{model})
+> See the model of the project in the model [`model`](https://github.com/Joram-kireki/Epidemix/tree/model)
  branch  
 > Implemented in Python:- **Starsim**, **Django**, **Matplotlib**, etc.
 
