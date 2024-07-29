@@ -1,5 +1,6 @@
 # Epidemix
-> ` ` Agent-Based Modeling: `Meningitis` ` ` 
+> ` ` Agent-Based Modeling: `Meningitis` ` `   
+> ` ` Sub-Domain:  [`epidemix.jhubafrica.com`](https://epidemix.jhubafrica.com/)  
 
 This is a project implementation using a `SIR`-like  model. Is extended to `SEIRs`:  
 
@@ -8,6 +9,9 @@ This is a project implementation using a `SIR`-like  model. Is extended to `SEIR
     - Infected
     - Recovered
     - etc  
+
+### [`Support Documents`](./agent_based_modelling/)
+Navigate to the [`agent_based_modelling`](./agent_based_modelling/) directory to view the  support documents for the project.
 
 ---
 ## Model
@@ -20,8 +24,8 @@ This is a project implementation using a `SIR`-like  model. Is extended to `SEIR
 ### WHAT `Agent-Based Modeling` IS
 > Extending **SIR** to **SEIRs**  
 
-Think of Agent-Based Modeling as a system of computational models that simulate behavior of individual agents in order to study emergent phenomena - in terms of disease infection in a population. Agents may represent *humans, institutions, microorganisms*, and *disease vectors* and so forth. The agents’ actions are based on autonomous decision-making and other behavioral traits, implemented through formal rules of interaction in an environment.  
-Agent-based modeling provides a unique lens through which complex systems can be examined and understood. This allows for manipulating numerous variables to create detailed scenarios, offering insights into how different vaccination strategies, and treatment might perform under various epidemiological and social conditions.
+Think of Agent-Based Modeling as a system of computational models that simulate behavior of individual agents in order to study emergent phenomena - in terms of disease infection in a population. Agents may represent *humans, institutions, microorganisms*, and *disease vectors* and so forth.
+Agent-based modeling provides a unique lens through which complex systems can be examined and understood.
 
 
 > Read More on Agent-Based Modeling: [epidemix.jhubafrica.com](https://epidemix.jhubafrica.com/)  
@@ -53,6 +57,3 @@ Agent-based modeling provides a unique lens through which complex systems can be
     └── bootstrap.scss
 
 ```
-
-### [`agent_based_modelling`](./agent_based_modelling/)
-Navigate to the [`agent_based_modelling`](./agent_based_modelling/) directory to view multiple support documents for the project.
