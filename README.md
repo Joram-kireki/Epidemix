@@ -58,11 +58,15 @@ Agent-based modeling provides a unique lens through which complex systems can be
 
 ```
 
-## Contributors
+## Team
 
+    Dr. Lawrence Nderu
+    Hilda Gichobi
+    Felista Mogire
+    
     Jany Muong
     Joram Kireki
     Jacob Kasunzu
     Gatmach Yuol 
     Edwin Owino
-    Felista Mogire
+    
