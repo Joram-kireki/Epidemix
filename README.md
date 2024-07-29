@@ -1,5 +1,5 @@
 # Epidemix
-> ` ` Agent-Based Modeling: `Meningitis` ` `   
+> ` ` Agent-Based Modeling: `Meningitis`   
 > ` ` Sub-Domain:  [`epidemix.jhubafrica.com`](https://epidemix.jhubafrica.com/)  
 
 This is a project implementation using a `SIR`-like  model. Is extended to `SEIRs`:  
@@ -10,7 +10,7 @@ This is a project implementation using a `SIR`-like  model. Is extended to `SEIR
     - Recovered
     - etc  
 
-### [`Support Documents`](./agent_based_modelling/)
+## [Support Documents](./agent_based_modelling/)
 Navigate to the [`agent_based_modelling`](./agent_based_modelling/) directory to view the  support documents for the project.
 
 ---
@@ -57,3 +57,11 @@ Agent-based modeling provides a unique lens through which complex systems can be
     └── bootstrap.scss
 
 ```
+
+## Contributors
+
+    Jany Muong
+    Joram Kireki
+    Jacob Kasunzu 
+    Edwin Owino
+    Felista Mogire
