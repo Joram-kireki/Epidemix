@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agent-Based Modeling - Parameters</title>
+    <link rel="icon" type="image/svg+xml" href="{% static 'img/favicon.svg' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/parameters.css' %}">
+    <script src="{% static 'js/sim.js' %}" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="{% static 'img/thepetridish-posse-python.svg' %}" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'sim' %}" class="{% if request.resolver_match.url_name == 'sim' %}active{% endif %}">Dashboard</a></li>
+                <li><a href="{% url 'normal_simulation' %}" class="{% if request.resolver_match.url_name == 'normal_simulation' %}active{% endif %}">Normal Simulation</a></li>
+                <li><a href="{% url 'vaccine_simulation' %}" class="{% if request.resolver_match.url_name == 'vaccine_simulation' %}active{% endif %}">Vaccine Simulation</a></li>
+                <li><a href="{% url 'age_based_vaccine_simulation' %}" class="{% if request.resolver_match.url_name == 'age_based_vaccine_simulation' %}active{% endif %}">Age-Based Vaccination</a></li>
+                <li><a href="{% url 'treatment_simulation' %}" class="{% if request.resolver_match.url_name == 'treatment_simulation' %}active{% endif %}">Treatment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="simcont">
+            <div class="animation-container">
+                <canvas id="agentCanvas"></canvas>
+            </div>            
+            
+            <div class="intro-section">
+                <h1>Agent-Based Modeling</h1>
+                <p class="intro-text">Simulating the spread of meningitis infection using a <strong>SEIRs model</strong>.</p>
+                <p class="intro-text">You can set model parameters below and see a visualization of the normal spread of the infection in a population,<br/> and also how the infection works when there is an intervention.</p>
+            </div>
+
+            <!-- form for simulation parameters -->
+            <form method="post">
+                {% csrf_token %}
+                <h2>Simulation Parameters</h2>
+                {{ form.as_p }}
+
+                <button type="submit" class="submit_btn">Run Simulation</button>
+            </form>
+        </div>
+    </div>
+    <footer class="index-footer">
+        <p>&copy; 2024 The Epidemix Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
