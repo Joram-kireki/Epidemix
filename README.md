@@ -1,4 +1,4 @@
-# ![The Petri-Dish Posse](./static/img/thepetridish-posse-python.svg)
+# ![The Petri-Dish Posse](./meningitis_sim/static/img/thepetridish-posse-python.svg)
 > ` ` Agent-Based Modeling: `Meningitis` ` ` 
 
 This is a [**Python**](https://www.python.org/) implementation using the [`Starsim`](https://docs.idmod.org/projects/starsim/en/latest/) package.
