@@ -15,7 +15,7 @@ Navigate to the [`agent_based_modelling`](./agent_based_modelling/) directory to
 
 ---
 ## Model
-> See the model of the project in the model [`model`](https://github.com/Joram-kireki/Epidemix/tree/model)
+> See the model of the project in the [`model`](https://github.com/Joram-kireki/Epidemix/tree/model)
  branch  
 > Implemented in Python:- **Starsim**, **Django**, **Matplotlib**, etc.
 
@@ -63,7 +63,7 @@ Agent-based modeling provides a unique lens through which complex systems can be
     Dr. Lawrence Nderu
     Hilda Gichobi
     Felista Mogire
-    
+
     Jany Muong
     Joram Kireki
     Jacob Kasunzu
