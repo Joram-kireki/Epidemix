@@ -62,6 +62,7 @@ Agent-based modeling provides a unique lens through which complex systems can be
 
     Jany Muong
     Joram Kireki
-    Jacob Kasunzu 
+    Jacob Kasunzu
+    Gatmach Yuol 
     Edwin Owino
     Felista Mogire
